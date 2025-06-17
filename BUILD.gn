@@ -91,6 +91,7 @@ source_set("libyuv") {
 
   deps = [
     "//third_party:jpeg",
+    "//third_party:sksk",
   ]
 
   if (use_neon) {
